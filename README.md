@@ -4,8 +4,6 @@ Use this assessment to demonstrate your ability to write clean code and your app
 
 If anything is unclear, please reach out to one of our team members. Asking questions will not affect how we score you on the assessment.
 
-----  
-
 ## Data files
 
 In the `data` folder, there are three files:
