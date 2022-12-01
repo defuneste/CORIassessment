@@ -1,2 +1,3 @@
 .Rproj.user/
 data/load_census_pop_data.R
+.DS_Store
