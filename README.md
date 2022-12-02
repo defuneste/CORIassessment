@@ -10,7 +10,7 @@ Assessment assets:
 - TIGER/Line Census Tract geographies
   * [2010 TIGER/Line]( https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/tiger-geo-line.2010.html#list-tab-3L9EYC1Q7KUN9000GD)
   * [2020 TIGER/Line]( https://www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/tiger-geo-line.2020.html#list-tab-XSRBTN3QU2SOU0H39X)
-tigris – R package we use to pull tabular and spatial TIGER/line files from the US Census Bureau for common census geographies.
+* [tigris](https://github.com/walkerke/tigris) – R package we use to pull tabular and spatial TIGER/line files from the US Census Bureau for common census geographies.
   * [2010-2020 relationship files]( https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html)
   * [Census Tract Relationship Files]( https://www2.census.gov/geo/docs/maps-data/data/rel2020/tract/tab20_tract20_tract10_natl.txt): The 2020 census tract relationship files provide simple relationships between 2020 census tract entities and 2010 census tract entities. [File explanation]( https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.html)
   * [RUCA tract definition file]( https://www.ers.usda.gov/webdocs/DataFiles/53241/ruca2010revised.xlsx?v=6309.2): CORI defines rural tracts where ‘Primary RUCA Code 2010’ >= 4
