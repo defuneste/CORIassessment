@@ -38,6 +38,7 @@ usethis::use_data(census_2020, overwrite = TRUE)
 # pop missing some value ->  0 pop census tract, should be 0
 # primary_ruca_code_2010 and secondary_ruca_code_2010 could be string
 # it makes filtering a bit easier but at heart it is categorical data
+# also contains Puerto Rico (PR) not present in 2010
 
 ruca <- readxl::read_excel("data-raw/ruca2010revised.xlsx", skip = 1) |>
             janitor::clean_names()
