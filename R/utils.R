@@ -32,10 +32,8 @@ land_change <- function(x, perc = TRUE) {
             (x$AREALAND_TRACT_20 + x$AREAWATER_TRACT_20)) * 100
         return(land_diff_perc)
     } else{
-        land_diff = (((x$AREALAND_TRACT_20 + x$AREAWATER_TRACT_20) -
-                          (x$AREALAND_TRACT_10 + x$AREAWATER_TRACT_10)
-        ) /
-            (x$AREALAND_TRACT_20 + x$AREAWATER_TRACT_20))
+        land_diff = (x$AREALAND_TRACT_20 + x$AREAWATER_TRACT_20) -
+            (x$AREALAND_TRACT_10 + x$AREAWATER_TRACT_10)
         return(land_diff)
     }
 

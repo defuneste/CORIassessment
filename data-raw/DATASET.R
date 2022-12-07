@@ -45,7 +45,7 @@ usethis::use_data(census_2020, overwrite = TRUE)
 # primary_ruca_code_2010 and secondary_ruca_code_2010 could be string
 # it makes filtering a bit easier but at heart it is categorical data
 # also contains Puerto Rico (PR) not present in 2010
-
+# TODO get read of PR in the data if not in 2020
 
 ruca <-
     readxl::read_excel("data-raw/ruca2010revised.xlsx", skip = 1) |>
